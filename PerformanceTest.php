@@ -11,11 +11,12 @@ require __DIR__ . "/_bootstrap.php";
 
 use \Dida\Performance;
 
-test_section("memoryUsage()");
+DidaTest::section("memoryUsage()");
+
 $a = Performance::memoryUsage();
 var_dump($a);
 
-test_section("readableInterval()");
+DidaTest::section("readableInterval()");
 
 var_dump(Performance::readableInterval(8640000 + 200000));
 

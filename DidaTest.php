@@ -6,7 +6,14 @@
  * 官网: <https://github.com/zeupin/dida>
  * Gitee: <https://gitee.com/zeupin/dida>
  */
-require "D:/Projects/github/dida/src/Dida/Autoloader.php";
-Dida\Autoloader::addPsr4("Dida", "D:/Projects/github/dida/src/Dida");
 
-require __DIR__ . "/DidaTest.php";
+/**
+ * DidaTest
+ */
+class DidaTest
+{
+    public static function section($title)
+    {
+        echo "\n/**************************  $title  **************************/\n";
+    }
+}
