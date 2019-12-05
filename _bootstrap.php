@@ -6,7 +6,7 @@
  * 官网: <https://github.com/zeupin/dida>
  * Gitee: <https://gitee.com/zeupin/dida>
  */
-require "D:/Projects/github/dida/src/Dida/Autoloader.php";
+require "D:/Projects/github/dida-autoloader/src/Dida/Autoloader.php";
 Dida\Autoloader::addPsr4("Dida", "D:/Projects/github/dida/src/Dida");
-
+Dida\Autoloader::addPsr4("Dida", "D:/Projects/github/dida-config--dev/src/Dida");
 require __DIR__ . "/DidaTest.php";
