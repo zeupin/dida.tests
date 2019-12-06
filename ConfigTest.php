@@ -31,3 +31,12 @@ var_dump(Config::all());
 
 Config::clear();
 var_dump(Config::all());
+
+Config::load(__DIR__ . "/demo.conf.php");
+var_dump(Config::all());
+
+Config::load(__DIR__ . "/demo.conf.php", "xxx");
+var_dump(Config::all());
+
+$v = Config::getItemsByGroup("xxx");
+var_dump($v);
