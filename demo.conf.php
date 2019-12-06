@@ -1,6 +1,8 @@
 <?php
 return [
-    "c" => 1,
-    "b" => 2,
-    "a" => 3,
+    "foo"            => 1,
+    "bar"            => 2,
+    "mysql.host"     => "localhost",
+    "mysql.user"     => "root",
+    "mysql.password" => "password",
 ];
