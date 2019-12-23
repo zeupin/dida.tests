@@ -9,4 +9,6 @@
 require "D:/Projects/github/dida-autoloader/src/Dida/Autoloader.php";
 Dida\Autoloader::addPsr4("Dida", "D:/Projects/github/dida/src/Dida");
 Dida\Autoloader::addPsr4("Dida", "D:/Projects/github/dida-config--dev/src/Dida");
+require "D:/Projects/github/dida-log--dev/vendor/autoload.php";
+Dida\Autoloader::addPsr4("Dida", "D:/Projects/github/dida-log--dev/src/Dida");
 require __DIR__ . "/DidaTest.php";
